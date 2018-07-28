@@ -4,14 +4,22 @@ This is not meant to be used in production, but for quick tests and study for wh
 
 As this is a pretty basic tool it has only react compiled with webpack and some scripts to help you starting. This project will have other branches with more complex solutions, as Express, redux, server-side rendering, etc.
 
+## Prerequisites
 
-## How to use it
+- npm
+- node
+- git
+
+## Guide:
 To use this repo you can clone or download it as a .zip file. After that:
 
-- Run: `npm i` to install the dependencies;
+- `git clone https://github.com/argemiront/react-scaffold.git`
+- `npm install`
+- `npm run dev`
+- check localhost:3001
 
 
-Script options:
+### Script options:
 
 - Run: `npm run dev` to start the dev server with hot reloading on `localhost:3001`;
 - Run: `npm run build` to build the bundle file on `public/bundle.js`;
